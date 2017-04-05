@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController">
+   <children>
+     <Button fx:id="btn_giris" layoutX="163.0" layoutY="90.0" mnemonicParsing="false" onAction="#toGirisYap" prefHeight="42.0" prefWidth="126.0" text="Giriş Yap" textFill="#1b6b31">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+      <Button fx:id="btn_uyeOl" layoutX="165.0" layoutY="176.0" mnemonicParsing="false" onAction="#toUyeOl" prefHeight="42.0" prefWidth="126.0" text="Üye Ol" textFill="#1b6b31">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+     
+   </children>
+</AnchorPane>

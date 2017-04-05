@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KullaniciController">
+   <children>
+      <Label layoutX="72.0" layoutY="39.0" text="Adı :" />       
+      <Label layoutX="71.0" layoutY="72.0" text="Soyadı :" />
+      <Label layoutX="70.0" layoutY="108.0" text="E - posta :" />
+      <Label layoutX="71.0" layoutY="140.0" text="Şifre :" />
+      <Label layoutX="71.0" layoutY="173.0" text="Şifre Tekrar :" />
+      <Label layoutX="71.0" layoutY="207.0" text="Doğum Tarihi :" />
+      <TextField fx:id="txt_adi" layoutX="177.0" layoutY="35.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txt_soyadi" layoutX="177.0" layoutY="68.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txt_eposta" layoutX="177.0" layoutY="104.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txt_sifre" layoutX="177.0" layoutY="136.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txt_sifreTkr" layoutX="177.0" layoutY="169.0" prefHeight="25.0" prefWidth="174.0" />
+      <DatePicker fx:id="date_picker" layoutX="177.0" layoutY="203.0" />
+      <Button layoutX="217.0" layoutY="250.0" mnemonicParsing="false" onAction="#kaydetKullanici" prefHeight="31.0" prefWidth="106.0" text="KAYDET" />
+      <Button fx:id="btn_geri" layoutX="70.0" layoutY="250.0" mnemonicParsing="false" onAction="#toGeri" prefHeight="31.0" prefWidth="106.0" text="GERİ" />
+   </children>
+</AnchorPane>
